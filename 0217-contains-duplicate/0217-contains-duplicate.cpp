@@ -1,14 +1,10 @@
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
-        map<int, bool> distinct;
-        for (int i : nums)
-        {
-            if (distinct.find(i) != distinct.end())
+        sort(nums.begin(), nums.end());
+        for (int i = 1; i < nums.size(); i++)
+            if (nums[i] == nums[i-1])
                 return true;
-            else
-                distinct.insert(make_pair(i, true));
-        }
         return false;
     }
 };
