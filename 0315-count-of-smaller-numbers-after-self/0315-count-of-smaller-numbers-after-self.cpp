@@ -59,13 +59,25 @@ public:
         return partialDamage(left, right);
     }
     vector<int> countSmaller(vector<int>& nums) {
-        vector<pair<int, int>> arr;
-        for (int i = 0; i < nums.size(); i++)
-        {
-            arr.push_back(make_pair(nums[i], i));
-        }
+        if (nums.size() == 1)
+            return {0};
+
+        vector<pair<int ,int>> part1, part2;
+        int idx = nums.size()-1;
+        for (; idx >= 1; idx--)
+            if (nums[idx] < nums[idx-1])
+                break;
+        for (int i = 0; i < idx; i++)
+            part1.push_back(make_pair(nums[i], i));
+        for (int i = idx; i < nums.size(); i++)
+            part2.push_back(make_pair(nums[i], i));
+
         res.resize(nums.size(), 0);
-        MergeSort(arr, 0, arr.size()-1);
+        if (part1.empty())
+            return res;
+        part1 = MergeSort(part1, 0, part1.size()-1);
+        partialDamage(part1, part2);
+
         return res;
     }
 };
