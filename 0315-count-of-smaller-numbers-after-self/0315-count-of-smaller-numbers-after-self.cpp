@@ -44,7 +44,7 @@ public:
             {
                 x.push_back(arr[end]);
                 x.push_back(arr[start]);
-                res[arr[end].second] = 0;
+                // res[arr[end].second] = 0;
                 res[arr[start].second] = 1;
             }
             return x;
