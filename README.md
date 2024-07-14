@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2083-three-divisors](https://github.com/abdallamaged95/LeetCode/tree/master/2083-three-divisors) |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/abdallamaged95/LeetCode/tree/master/2106-find-greatest-common-divisor-of-array) |
 | [2491-smallest-even-multiple](https://github.com/abdallamaged95/LeetCode/tree/master/2491-smallest-even-multiple) |
+| [2507-number-of-common-factors](https://github.com/abdallamaged95/LeetCode/tree/master/2507-number-of-common-factors) |
 ## Simulation
 |  |
 | ------- |
@@ -23,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2083-three-divisors](https://github.com/abdallamaged95/LeetCode/tree/master/2083-three-divisors) |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/abdallamaged95/LeetCode/tree/master/2106-find-greatest-common-divisor-of-array) |
 | [2491-smallest-even-multiple](https://github.com/abdallamaged95/LeetCode/tree/master/2491-smallest-even-multiple) |
+| [2507-number-of-common-factors](https://github.com/abdallamaged95/LeetCode/tree/master/2507-number-of-common-factors) |
 ## Array
 |  |
 | ------- |
@@ -40,4 +42,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2083-three-divisors](https://github.com/abdallamaged95/LeetCode/tree/master/2083-three-divisors) |
+| [2507-number-of-common-factors](https://github.com/abdallamaged95/LeetCode/tree/master/2507-number-of-common-factors) |
 <!---LeetCode Topics End-->
