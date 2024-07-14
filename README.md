@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2491-smallest-even-multiple](https://github.com/abdallamaged95/LeetCode/tree/master/2491-smallest-even-multiple) |
 | [2507-number-of-common-factors](https://github.com/abdallamaged95/LeetCode/tree/master/2507-number-of-common-factors) |
 | [2722-prime-in-diagonal](https://github.com/abdallamaged95/LeetCode/tree/master/2722-prime-in-diagonal) |
+| [2831-number-of-beautiful-pairs](https://github.com/abdallamaged95/LeetCode/tree/master/2831-number-of-beautiful-pairs) |
 ## Simulation
 |  |
 | ------- |
@@ -27,20 +28,24 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2491-smallest-even-multiple](https://github.com/abdallamaged95/LeetCode/tree/master/2491-smallest-even-multiple) |
 | [2507-number-of-common-factors](https://github.com/abdallamaged95/LeetCode/tree/master/2507-number-of-common-factors) |
 | [2722-prime-in-diagonal](https://github.com/abdallamaged95/LeetCode/tree/master/2722-prime-in-diagonal) |
+| [2831-number-of-beautiful-pairs](https://github.com/abdallamaged95/LeetCode/tree/master/2831-number-of-beautiful-pairs) |
 ## Array
 |  |
 | ------- |
 | [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/abdallamaged95/LeetCode/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/abdallamaged95/LeetCode/tree/master/2106-find-greatest-common-divisor-of-array) |
 | [2722-prime-in-diagonal](https://github.com/abdallamaged95/LeetCode/tree/master/2722-prime-in-diagonal) |
+| [2831-number-of-beautiful-pairs](https://github.com/abdallamaged95/LeetCode/tree/master/2831-number-of-beautiful-pairs) |
 ## Hash Table
 |  |
 | ------- |
 | [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/abdallamaged95/LeetCode/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
+| [2831-number-of-beautiful-pairs](https://github.com/abdallamaged95/LeetCode/tree/master/2831-number-of-beautiful-pairs) |
 ## Counting
 |  |
 | ------- |
 | [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/abdallamaged95/LeetCode/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
+| [2831-number-of-beautiful-pairs](https://github.com/abdallamaged95/LeetCode/tree/master/2831-number-of-beautiful-pairs) |
 ## Enumeration
 |  |
 | ------- |
