@@ -23,12 +23,18 @@ typedef long double         ld;
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
-        if (nums.size() == 1 || k == 0 || k % nums.size() == 0)
-            return;
         k %= nums.size();
-        swapRange(nums, 0, nums.size() - 1);
-        swapRange(nums, 0, k - 1);
-        swapRange(nums, k, nums.size() - 1);
+        if (nums.size() == 1 || k == 0)
+            return;
+        for (int i = k; i > 0; i--) {
+            if (gcd(nums.size(), i) == 1)
+            {
+                solve(nums, i);
+                i = k - i;
+                k = i;
+                i++;
+            }
+        }
         
     }
 
@@ -48,10 +54,9 @@ public:
         nums[r] = tmp;
     }
 
-    void swapRange(V<int>& nums, int l, int r) {
-        int n = (r - l) / 2;
-        for (int i = 0; i <= n; i++) {
-            swap(nums, l + i, r - i);
-        }
+    int gcd(int a, int b) {
+        if (b == 0)
+            return a;
+        return gcd(b, a % b);
     }
 };
