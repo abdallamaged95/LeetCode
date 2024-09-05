@@ -58,8 +58,7 @@ public:
             flag = false;
             return;
         }
-        if (valid(v, board.size(), board[0].size()))
-            visited[v.st][v.nd] = true;
+        visited[v.st][v.nd] = true;
         if (flag)
             region.push_back(v);
         for (auto d : dir) {
