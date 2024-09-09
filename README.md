@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/abdallamaged95/LeetCode/tree/master/0130-surrounded-regions) |
 | [0189-rotate-array](https://github.com/abdallamaged95/LeetCode/tree/master/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/abdallamaged95/LeetCode/tree/master/0200-number-of-islands) |
+| [0399-evaluate-division](https://github.com/abdallamaged95/LeetCode/tree/master/0399-evaluate-division) |
 | [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/abdallamaged95/LeetCode/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/abdallamaged95/LeetCode/tree/master/2106-find-greatest-common-divisor-of-array) |
 | [2722-prime-in-diagonal](https://github.com/abdallamaged95/LeetCode/tree/master/2722-prime-in-diagonal) |
@@ -79,19 +80,31 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/abdallamaged95/LeetCode/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/abdallamaged95/LeetCode/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/abdallamaged95/LeetCode/tree/master/0200-number-of-islands) |
+| [0399-evaluate-division](https://github.com/abdallamaged95/LeetCode/tree/master/0399-evaluate-division) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/abdallamaged95/LeetCode/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/abdallamaged95/LeetCode/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/abdallamaged95/LeetCode/tree/master/0200-number-of-islands) |
+| [0399-evaluate-division](https://github.com/abdallamaged95/LeetCode/tree/master/0399-evaluate-division) |
 ## Union Find
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/abdallamaged95/LeetCode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/abdallamaged95/LeetCode/tree/master/0200-number-of-islands) |
+| [0399-evaluate-division](https://github.com/abdallamaged95/LeetCode/tree/master/0399-evaluate-division) |
 ## Graph
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/abdallamaged95/LeetCode/tree/master/0133-clone-graph) |
+| [0399-evaluate-division](https://github.com/abdallamaged95/LeetCode/tree/master/0399-evaluate-division) |
+## String
+|  |
+| ------- |
+| [0399-evaluate-division](https://github.com/abdallamaged95/LeetCode/tree/master/0399-evaluate-division) |
+## Shortest Path
+|  |
+| ------- |
+| [0399-evaluate-division](https://github.com/abdallamaged95/LeetCode/tree/master/0399-evaluate-division) |
 <!---LeetCode Topics End-->
