@@ -80,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/abdallamaged95/LeetCode/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/abdallamaged95/LeetCode/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/abdallamaged95/LeetCode/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/abdallamaged95/LeetCode/tree/master/0207-course-schedule) |
 | [0399-evaluate-division](https://github.com/abdallamaged95/LeetCode/tree/master/0399-evaluate-division) |
 ## Breadth-First Search
 |  |
@@ -87,6 +88,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/abdallamaged95/LeetCode/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/abdallamaged95/LeetCode/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/abdallamaged95/LeetCode/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/abdallamaged95/LeetCode/tree/master/0207-course-schedule) |
 | [0399-evaluate-division](https://github.com/abdallamaged95/LeetCode/tree/master/0399-evaluate-division) |
 ## Union Find
 |  |
@@ -98,6 +100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/abdallamaged95/LeetCode/tree/master/0133-clone-graph) |
+| [0207-course-schedule](https://github.com/abdallamaged95/LeetCode/tree/master/0207-course-schedule) |
 | [0399-evaluate-division](https://github.com/abdallamaged95/LeetCode/tree/master/0399-evaluate-division) |
 ## String
 |  |
@@ -107,4 +110,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0399-evaluate-division](https://github.com/abdallamaged95/LeetCode/tree/master/0399-evaluate-division) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/abdallamaged95/LeetCode/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
