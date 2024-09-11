@@ -14,9 +14,6 @@ public class Solution {
         int[] requires = new int[numCourses];
         // Initializae graph
         for (int i = 0; i < prerequisites.length; i++) {
-            if (prerequisites[i][0] == prerequisites[i][1])
-                return false;
-
             graph[prerequisites[i][0]].add(prerequisites[i][1]);
             requires[prerequisites[i][1]] += 1;
         }
@@ -33,11 +30,10 @@ public class Solution {
             return (visited[course] == 'B');
 
         visited[course] = 'G';
-        for (int i = 0; i < graph[course].size(); i++) {
-            boolean f = DFS(graph[course].get(i));
-            if (f == false)
+        for (int i = 0; i < graph[course].size(); i++)
+            if (!DFS(graph[course].get(i)))
                 return false;
-        }
+
         visited[course] = 'B';
         return true;
     }
