@@ -1,8 +1,5 @@
 import java.util.*;
 
-
-
-
 class Solution {
     List<Integer>[] graph;
     char[] visited;
@@ -31,6 +28,7 @@ class Solution {
     }
 
     public boolean BFS(int vrtx) {
+        List<Integer> nodes = new ArrayList<>();
         int edgesCnt = 0, nodesCnt = 0;
         Queue<Integer> q = new LinkedList<>();
         q.add(vrtx);
@@ -38,6 +36,7 @@ class Solution {
             int curr = q.remove();
             visited[curr] = 'B';
             nodesCnt++;
+            nodes.add(curr);
             for (int i = 0; i < graph[curr].size(); i++) {
                 if (visited[graph[curr].get(i)] == 'W') {
                     q.add(graph[curr].get(i));
@@ -48,12 +47,22 @@ class Solution {
                     edgesCnt++;
             }
         }
-        if (edgesCnt == ((nodesCnt-1) * nodesCnt) / 2)
-            return true;
-        else if (nodesCnt == 2 && edgesCnt == 1)
-            return true;
-        else if (nodesCnt == 1 && edgesCnt == 0)
-            return true;
-        return false;
+
+//        if (edgesCnt == ((nodesCnt-1) * nodesCnt) / 2)
+//            return true;
+//        else if (nodesCnt == 2 && edgesCnt == 1)
+//            return true;
+//        else if (nodesCnt == 1 && edgesCnt == 0)
+//            return true;
+        boolean flag = true;
+        for (int i = 0; i < nodes.size(); i++) {
+            for (int j = 0; j < nodes.size() && j != i; j++) {
+                if (!graph[nodes.get(i)].contains(nodes.get(j)))
+                    flag = false;
+            }
+        }
+
+        return flag;
     }
+
 }
