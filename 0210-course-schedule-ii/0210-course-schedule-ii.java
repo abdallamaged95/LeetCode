@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Solution {
     public List<Integer>[] graph;
-    public List<Integer> path;
+    LinkedList[] ans;
     public char[] visited;
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         graph = new ArrayList[numCourses];
@@ -18,39 +18,53 @@ public class Solution {
             graph[prerequisites[i][0]].add(prerequisites[i][1]);
             requires[prerequisites[i][1]] += 1;
         }
+
         boolean possible = true;
-        List<List<Integer>> ans = new ArrayList<>();
+        ans = new LinkedList[numCourses];
+
         for (int i = 0; i < numCourses; i++) {
-            path = new ArrayList<>();
+            LinkedList<Integer> path = new LinkedList<>();
             Arrays.fill(visited, 'W');
-            possible = possible & DFS(i);
+
+            possible = possible & DFS(i, path);
+
             if (possible && path.size() == numCourses)
                 return to_array(path);
             else if (possible) {
-                path.remove(path.size()-1);
-                ans.add(path);
+//                path.removeLast();
+                ans[i] = path;
             }
+            else if (!possible)
+                return new int[]{};
         }
-        if (possible)
-            return to_array(construct(numCourses, ans.toArray(new List[0])));
-        return new int[]{};
+        return to_array(construct(numCourses, ans));
     }
 
-    public boolean DFS(int course) {
+    public boolean DFS(int course, LinkedList<Integer> path) {
         if (visited[course] != 'W')
             return (visited[course] == 'B');
 
         visited[course] = 'G';
-        for (int i = 0; i < graph[course].size(); i++)
-            if (!DFS(graph[course].get(i)))
-                return false;
+        for (int i = 0; i < graph[course].size(); i++) {
+            if (ans[graph[course].get(i)] != null && visited[graph[course].get(i)] == 'W') {
+                path.addAll(ans[graph[course].get(i)]);
+                visited[graph[course].get(i)] = 'B';
+            }
+            else {
+                if (visited[graph[course].get(i)] == 'B')
+                    continue;
+                else if (!DFS(graph[course].get(i), path))
+                    return false;
+            }
+        }
 
         visited[course] = 'B';
         path.add(course);
         return true;
     }
+    
     public List<Integer> construct(int numCourses, List<Integer>... path) {
-        List<Integer> arr = new ArrayList<>();
+        LinkedList<Integer> arr = new LinkedList<>();
         boolean[] vis = new boolean[numCourses];
         Arrays.fill(vis, false);
         for (int idx = 0; idx < numCourses; idx++) {
