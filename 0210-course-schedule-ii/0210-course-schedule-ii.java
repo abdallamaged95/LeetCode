@@ -67,13 +67,25 @@ public class Solution {
         LinkedList<Integer> arr = new LinkedList<>();
         boolean[] vis = new boolean[numCourses];
         Arrays.fill(vis, false);
-        for (int idx = 0; idx < numCourses; idx++) {
-            for (int i = 0; i < numCourses; i++) {
-                if (idx < path[i].size() && !vis[path[i].get(idx)]) {
-                    arr.add(path[i].get(idx));
-                    vis[path[i].get(idx)] = true;
+//        for (int idx = 0; idx < numCourses; idx++) {
+//            for (int i = 0; i < numCourses; i++) {
+//                if (idx < path[i].size() && !vis[path[i].get(idx)]) {
+//                    arr.add(path[i].get(idx));
+//                    vis[path[i].get(idx)] = true;
+//                }
+//            }
+//        }
+        for (int i = 0; i < path.length; i++) {
+            Iterator<Integer> it = path[i].iterator();
+            while (it.hasNext()) {
+                int tmp = it.next();
+                if (!vis[tmp]) {
+                    arr.add(tmp);
+                    vis[tmp] = true;
                 }
             }
+//            vis[arr.getLast()] = false;
+//            arr.removeLast();
         }
         for (int i = 0; i < numCourses; i++) {
             if (!vis[i]) {
