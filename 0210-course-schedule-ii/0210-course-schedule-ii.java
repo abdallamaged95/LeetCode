@@ -63,10 +63,11 @@ public class Solution {
         return true;
     }
     
-    public List<Integer> construct(int numCourses, List<Integer>... path) {
+    public LinkedList<Integer> construct(int numCourses, List<Integer>... path) {
         LinkedList<Integer> arr = new LinkedList<>();
         boolean[] vis = new boolean[numCourses];
         Arrays.fill(vis, false);
+
         for (int i = 0; i < path.length; i++) {
             Iterator<Integer> it = path[i].iterator();
             while (it.hasNext()) {
@@ -85,10 +86,12 @@ public class Solution {
         }
         return arr;
     }
-    public int[] to_array(List<Integer> path) {
+    public int[] to_array(LinkedList<Integer> path) {
         int[] arr = new int[path.size()];
-        for (int i = 0; i < path.size(); i++) {
-            arr[i] = path.get(i);
+        var it = path.iterator();
+        int idx = 0;
+        while (it.hasNext()) {
+            arr[idx++] = it.next();
         }
         return arr;
     }
