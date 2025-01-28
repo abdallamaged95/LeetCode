@@ -111,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/abdallamaged95/LeetCode/tree/master/0020-valid-parentheses) |
 | [0399-evaluate-division](https://github.com/abdallamaged95/LeetCode/tree/master/0399-evaluate-division) |
 ## Shortest Path
 |  |
@@ -121,4 +122,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0207-course-schedule](https://github.com/abdallamaged95/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/abdallamaged95/LeetCode/tree/master/0210-course-schedule-ii) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/abdallamaged95/LeetCode/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
