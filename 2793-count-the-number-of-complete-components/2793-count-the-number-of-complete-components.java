@@ -1,59 +1,45 @@
-import java.util.*;
-
-
-
-
 class Solution {
-    List<Integer>[] graph;
-    char[] visited;
-    public int countCompleteComponents(int n, int[][] edges) {
-        visited = new char[n];
-        Arrays.fill(visited, 'W');
-
-        graph = new List[n];
-        // init graph
-        for (int i = 0; i < n; i++) {
-            graph[i] = new ArrayList<>();
-        }
-        for (int i = 0; i < edges.length; i++) {
-            graph[edges[i][0]].add(edges[i][1]);
-            graph[edges[i][1]].add(edges[i][0]);
-        }
-
-        int cnt = 0;
+    public static int countCompleteComponents(int n, int[][] edges) {
+        char[] visited = new char[n];
         for (int i = 0; i < n; i++)
-            if (visited[i] == 'W') {
-                if (BFS(i))
-                    cnt++;
+            visited[i] = 'w';
+        Map<Integer, List<Integer>> graph = new HashMap<>();
+        for (int i = 0; i < n; i++)
+            graph.put(i, new ArrayList<>());
+        for (int i = 0; i < edges.length; i++){
+            graph.get(edges[i][0]).add(edges[i][1]);
+            graph.get(edges[i][1]).add(edges[i][0]);
+        }
+
+        int count = 0;
+        for (int i = 0; i < n; i++)
+            if (visited[i] == 'w') {
+                if (BFS(graph, visited, i))
+                    count++;
             }
 
-        return cnt;
+        return count;
     }
-
-    public boolean BFS(int vrtx) {
-        int edgesCnt = 0, nodesCnt = 0;
-        Queue<Integer> q = new LinkedList<>();
-        q.add(vrtx);
-        while (!q.isEmpty()) {
-            int curr = q.remove();
-            visited[curr] = 'B';
-            nodesCnt++;
-            for (int i = 0; i < graph[curr].size(); i++) {
-                if (visited[graph[curr].get(i)] == 'W') {
-                    q.add(graph[curr].get(i));
-                    visited[graph[curr].get(i)] = 'G';
-                    edgesCnt++;
+    public static boolean BFS(Map<Integer, List<Integer>> graph, char[] visited, int vrtx){
+        Queue<Integer> queue = new ArrayDeque<>();
+        queue.add(vrtx);
+//        visited[vrtx] = 'b';
+        int vertices = 0;
+        int edges = 0;
+        while(!queue.isEmpty()) {
+            var curr = queue.poll();
+            visited[curr] = 'b';
+            vertices++;
+            for (Integer i : graph.get(curr)) {
+                if(visited[i] == 'w') {
+                    visited[i] = 'g';
+                    queue.add(i);
+                    edges++;
                 }
-                else if (visited[graph[curr].get(i)] == 'G')
-                    edgesCnt++;
+                else if(visited[i] == 'g')
+                    edges++;
             }
         }
-        if (edgesCnt == ((nodesCnt-1) * nodesCnt) / 2)
-            return true;
-        else if (nodesCnt == 2 && edgesCnt == 1)
-            return true;
-        else if (nodesCnt == 1 && edgesCnt == 0)
-            return true;
-        return false;
+        return ((vertices*(vertices-1)/2) == edges);
     }
 }
