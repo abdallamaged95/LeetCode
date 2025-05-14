@@ -38,9 +38,14 @@ class Solution {
         Pair ans = new Pair((node == n1), (node == n2));
 
         Pair ansL = solve(node.left);
-        Pair ansR = solve(node.right);
-
         ans = ans.or(ans, ansL);
+        if (ans.b1 && ans.b2) {
+            if (ansNode == null)
+                ansNode = node;
+            return ans;
+        }
+
+        Pair ansR = solve(node.right);
         ans = ans.or(ans, ansR);
 
         if (ans.b1 && ans.b2 && ansNode == null)
