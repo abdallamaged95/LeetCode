@@ -85,6 +85,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/abdallamaged95/LeetCode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/abdallamaged95/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/abdallamaged95/LeetCode/tree/master/0210-course-schedule-ii) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/abdallamaged95/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0399-evaluate-division](https://github.com/abdallamaged95/LeetCode/tree/master/0399-evaluate-division) |
 | [2793-count-the-number-of-complete-components](https://github.com/abdallamaged95/LeetCode/tree/master/2793-count-the-number-of-complete-components) |
 ## Breadth-First Search
@@ -140,4 +141,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/abdallamaged95/LeetCode/tree/master/0143-reorder-list) |
+## Tree
+|  |
+| ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/abdallamaged95/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/abdallamaged95/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 <!---LeetCode Topics End-->
