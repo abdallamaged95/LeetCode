@@ -73,6 +73,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/abdallamaged95/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/abdallamaged95/LeetCode/tree/master/0143-reorder-list) |
 | [0189-rotate-array](https://github.com/abdallamaged95/LeetCode/tree/master/0189-rotate-array) |
+| [2236-maximum-twin-sum-of-a-linked-list](https://github.com/abdallamaged95/LeetCode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -132,12 +133,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0020-valid-parentheses](https://github.com/abdallamaged95/LeetCode/tree/master/0020-valid-parentheses) |
 | [0143-reorder-list](https://github.com/abdallamaged95/LeetCode/tree/master/0143-reorder-list) |
+| [2236-maximum-twin-sum-of-a-linked-list](https://github.com/abdallamaged95/LeetCode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Linked List
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/abdallamaged95/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/abdallamaged95/LeetCode/tree/master/0143-reorder-list) |
 | [0328-odd-even-linked-list](https://github.com/abdallamaged95/LeetCode/tree/master/0328-odd-even-linked-list) |
+| [2236-maximum-twin-sum-of-a-linked-list](https://github.com/abdallamaged95/LeetCode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Recursion
 |  |
 | ------- |
