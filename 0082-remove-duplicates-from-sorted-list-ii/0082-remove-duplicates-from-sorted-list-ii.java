@@ -41,9 +41,7 @@ public class Solution {
         int value = head.next.val;
         ListNode node = head.next;
         while (node != null && node.val == value) {
-            ListNode next = node.next;
-            node.next = null;
-            node = next;
+            node = node.next;
         }
         head.next = node;
         if (head.val == Integer.MIN_VALUE)
