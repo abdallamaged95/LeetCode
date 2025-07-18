@@ -71,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/abdallamaged95/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/abdallamaged95/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+| [0082-remove-duplicates-from-sorted-list-ii](https://github.com/abdallamaged95/LeetCode/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0141-linked-list-cycle](https://github.com/abdallamaged95/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/abdallamaged95/LeetCode/tree/master/0143-reorder-list) |
 | [0189-rotate-array](https://github.com/abdallamaged95/LeetCode/tree/master/0189-rotate-array) |
@@ -139,6 +140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/abdallamaged95/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0082-remove-duplicates-from-sorted-list-ii](https://github.com/abdallamaged95/LeetCode/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0141-linked-list-cycle](https://github.com/abdallamaged95/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/abdallamaged95/LeetCode/tree/master/0143-reorder-list) |
 | [0328-odd-even-linked-list](https://github.com/abdallamaged95/LeetCode/tree/master/0328-odd-even-linked-list) |
