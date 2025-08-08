@@ -36,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/abdallamaged95/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/abdallamaged95/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0130-surrounded-regions](https://github.com/abdallamaged95/LeetCode/tree/master/0130-surrounded-regions) |
+| [0169-majority-element](https://github.com/abdallamaged95/LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/abdallamaged95/LeetCode/tree/master/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/abdallamaged95/LeetCode/tree/master/0200-number-of-islands) |
 | [0399-evaluate-division](https://github.com/abdallamaged95/LeetCode/tree/master/0399-evaluate-division) |
@@ -48,11 +49,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0133-clone-graph](https://github.com/abdallamaged95/LeetCode/tree/master/0133-clone-graph) |
 | [0141-linked-list-cycle](https://github.com/abdallamaged95/LeetCode/tree/master/0141-linked-list-cycle) |
+| [0169-majority-element](https://github.com/abdallamaged95/LeetCode/tree/master/0169-majority-element) |
 | [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/abdallamaged95/LeetCode/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 | [2831-number-of-beautiful-pairs](https://github.com/abdallamaged95/LeetCode/tree/master/2831-number-of-beautiful-pairs) |
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/abdallamaged95/LeetCode/tree/master/0169-majority-element) |
 | [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/abdallamaged95/LeetCode/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 | [2831-number-of-beautiful-pairs](https://github.com/abdallamaged95/LeetCode/tree/master/2831-number-of-beautiful-pairs) |
 ## Enumeration
@@ -157,4 +160,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/abdallamaged95/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/abdallamaged95/LeetCode/tree/master/0169-majority-element) |
+## Sorting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/abdallamaged95/LeetCode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
