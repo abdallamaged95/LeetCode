@@ -5,17 +5,22 @@ public:
         return solve(nums);
     }
     
-    bool visited[10005] = {false};
-    
-    bool solve(vector<int>& nums, int idx = 0) {
-        if (idx == nums.size()-1) {
-            return true;
-        }
-        visited[idx] = true;
-        for (int i = idx+1; i < nums.size(); i++) {
-            if (nums[i] >= (i - idx) && !visited[i]) {
-                if (solve(nums, i)) {
-                    return true;
+    bool solve(vector<int>& nums) {
+        queue<int> q;
+        q.push(0);
+        bool visited[10005] = {false};
+        visited[0] = true;
+        while (!q.empty()) {
+            int curr = q.front();
+            if (curr == nums.size() - 1) {
+                return true;
+            }
+            q.pop();
+            for (int i = curr+1; i < nums.size(); i++) {
+                if (nums[i] >= (i - curr) && !visited[i]) {
+                    visited[i] = true;
+                    q.push(i);
+
                 }
             }
         }
