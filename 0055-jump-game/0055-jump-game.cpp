@@ -8,7 +8,7 @@ public:
     bool solve(vector<int>& nums) {
         queue<int> q;
         q.push(0);
-        bool visited[10005] = {false};
+        bool* visited = new bool[nums.size()]{false};
         visited[0] = true;
         while (!q.empty()) {
             int curr = q.front();
