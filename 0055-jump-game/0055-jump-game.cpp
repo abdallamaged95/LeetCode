@@ -1,19 +1,21 @@
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
-        // bool* visited = new bool[nums.size()]{false};
+        bool* visited = new bool[nums.size()]{false};
         // reverse(nums.begin(), nums.end());
-        return solve(nums);
+        return solve(nums, visited, nums.size()-1);
     }
-
-    bool solve(vector<int>& nums) {
-        int lastPos = nums.size() - 1;
-        for (int i = nums.size()-1; i >= 0; i--) {
-            if (nums[i] >= (lastPos - i)) {
-                lastPos = i;
-            }
-            if (lastPos == 0) {
-                return true;
+    
+    bool solve(vector<int>& nums, bool* visited, int idx = 0) {
+        if (idx == 0) {
+            return true;
+        }
+        visited[idx] = true;
+        for (int i = idx-1; i >= 0; i--) {
+            if (nums[i] >= (idx - i) && !visited[i]) {
+                if (solve(nums, visited, i)) {
+                    return true;
+                }
             }
         }
         return false;
