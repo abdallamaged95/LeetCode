@@ -2,17 +2,17 @@ class Solution {
 public:
     bool canJump(vector<int>& nums) {
         // bool* visited = new bool[nums.size()]{false};
-        reverse(nums.begin(), nums.end());
+        // reverse(nums.begin(), nums.end());
         return solve(nums);
     }
 
     bool solve(vector<int>& nums) {
-        int lastPos = 0;
-        for (int i = 0; i < nums.size(); i++) {
-            if (nums[i] >= (i - lastPos)) {
+        int lastPos = nums.size() - 1;
+        for (int i = nums.size()-1; i >= 0; i--) {
+            if (nums[i] >= (lastPos - i)) {
                 lastPos = i;
             }
-            if (lastPos == nums.size() - 1) {
+            if (lastPos == 0) {
                 return true;
             }
         }
