@@ -41,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0189-rotate-array](https://github.com/abdallamaged95/LeetCode/tree/master/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/abdallamaged95/LeetCode/tree/master/0200-number-of-islands) |
 | [0399-evaluate-division](https://github.com/abdallamaged95/LeetCode/tree/master/0399-evaluate-division) |
+| [0624-maximum-distance-in-arrays](https://github.com/abdallamaged95/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
 | [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/abdallamaged95/LeetCode/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/abdallamaged95/LeetCode/tree/master/2106-find-greatest-common-divisor-of-array) |
 | [2722-prime-in-diagonal](https://github.com/abdallamaged95/LeetCode/tree/master/2722-prime-in-diagonal) |
@@ -174,4 +175,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0055-jump-game](https://github.com/abdallamaged95/LeetCode/tree/master/0055-jump-game) |
+| [0624-maximum-distance-in-arrays](https://github.com/abdallamaged95/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
 <!---LeetCode Topics End-->
