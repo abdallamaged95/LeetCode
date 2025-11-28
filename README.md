@@ -176,4 +176,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0055-jump-game](https://github.com/abdallamaged95/LeetCode/tree/master/0055-jump-game) |
 | [0624-maximum-distance-in-arrays](https://github.com/abdallamaged95/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
+## Database
+|  |
+| ------- |
+| [0584-find-customer-referee](https://github.com/abdallamaged95/LeetCode/tree/master/0584-find-customer-referee) |
 <!---LeetCode Topics End-->
