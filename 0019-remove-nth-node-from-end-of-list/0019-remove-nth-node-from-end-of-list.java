@@ -10,27 +10,25 @@
  */
 class Solution {
     public static int idx;
+    public static int x = 0;
     public static ListNode removeNthFromEnd(ListNode head, int n) {
+        if (head.next == null)
+            return null;
         idx = n;
-        return solve(head, null);
+        x = 0;
+        solve(head);
+        if (x == n)
+            return head.next;
+        return head;
     }
-    public static ListNode solve(ListNode node, ListNode parent) {
-        if (node.next != null) {
-            solve(node.next, node);
-            idx -= 1;
+    public static void solve(ListNode node) {
+        if (node == null){
+            return;
         }
-        if (idx == 1) {
-            if (parent != null) {
-                parent.next = node.next;
-                node.next = null;
-            }
-            else {
-                parent = node.next;
-                node.next = null;
-            }
-            return parent;
+        solve(node.next);
+        x += 1;
+        if (x == idx+1) {
+            node.next = node.next.next;
         }
-        return node;
-        
     }
 }
