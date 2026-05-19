@@ -53,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0133-clone-graph](https://github.com/abdallamaged95/LeetCode/tree/master/0133-clone-graph) |
 | [0141-linked-list-cycle](https://github.com/abdallamaged95/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/abdallamaged95/LeetCode/tree/master/0142-linked-list-cycle-ii) |
+| [0160-intersection-of-two-linked-lists](https://github.com/abdallamaged95/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/abdallamaged95/LeetCode/tree/master/0169-majority-element) |
 | [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/abdallamaged95/LeetCode/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 | [2831-number-of-beautiful-pairs](https://github.com/abdallamaged95/LeetCode/tree/master/2831-number-of-beautiful-pairs) |
@@ -82,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/abdallamaged95/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/abdallamaged95/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/abdallamaged95/LeetCode/tree/master/0143-reorder-list) |
+| [0160-intersection-of-two-linked-lists](https://github.com/abdallamaged95/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0189-rotate-array](https://github.com/abdallamaged95/LeetCode/tree/master/0189-rotate-array) |
 | [0876-middle-of-the-linked-list](https://github.com/abdallamaged95/LeetCode/tree/master/0876-middle-of-the-linked-list) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/abdallamaged95/LeetCode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
@@ -156,6 +158,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/abdallamaged95/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/abdallamaged95/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/abdallamaged95/LeetCode/tree/master/0143-reorder-list) |
+| [0160-intersection-of-two-linked-lists](https://github.com/abdallamaged95/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0203-remove-linked-list-elements](https://github.com/abdallamaged95/LeetCode/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/abdallamaged95/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/abdallamaged95/LeetCode/tree/master/0237-delete-node-in-a-linked-list) |
