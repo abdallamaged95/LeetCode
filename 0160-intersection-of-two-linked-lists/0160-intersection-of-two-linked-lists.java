@@ -25,6 +25,8 @@ public class Solution {
                 stepsB += 1;
             }
         }
+        if (nodeA != nodeB)
+            return null;
         nodeA = headA;
         nodeB = headB;
         while (stepsB > stepsA) {
