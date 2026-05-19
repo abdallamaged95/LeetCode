@@ -26,24 +26,11 @@ class Solution {
             if (carry > 0)
                 l2.next = new ListNode(carry);
         }
-        else if (l1.next == null && l2.next != null) {
+        else if (l1.next == null || l2.next == null) {
+            if (l2.next == null)
+                l2.next = l1.next;
             l2 = l2.next;
-            while (carry > 0 && l2 != null) {
-                int sum = l2.val + carry;
-                carry = sum / 10;
-                sum = sum % 10;
-                l2.val = sum;
-                if (l2.next == null && carry > 0) {
-                    l2.next = new ListNode(carry);
-                    break;
-                }
-                l2 = l2.next;
-            }
-        }
-        else if (l1.next != null && l2.next == null) {
-            l2.next = l1.next;
-            l2 = l2.next;
-            while (carry > 0 && l2 != null) {
+            while (carry > 0) {
                 int sum = l2.val + carry;
                 carry = sum / 10;
                 sum = sum % 10;
