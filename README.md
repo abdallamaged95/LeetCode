@@ -41,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/abdallamaged95/LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/abdallamaged95/LeetCode/tree/master/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/abdallamaged95/LeetCode/tree/master/0200-number-of-islands) |
+| [0215-kth-largest-element-in-an-array](https://github.com/abdallamaged95/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0399-evaluate-division](https://github.com/abdallamaged95/LeetCode/tree/master/0399-evaluate-division) |
 | [0624-maximum-distance-in-arrays](https://github.com/abdallamaged95/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
 | [0912-sort-an-array](https://github.com/abdallamaged95/LeetCode/tree/master/0912-sort-an-array) |
@@ -192,11 +193,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/abdallamaged95/LeetCode/tree/master/0169-majority-element) |
+| [0215-kth-largest-element-in-an-array](https://github.com/abdallamaged95/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0912-sort-an-array](https://github.com/abdallamaged95/LeetCode/tree/master/0912-sort-an-array) |
 ## Sorting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/abdallamaged95/LeetCode/tree/master/0169-majority-element) |
+| [0215-kth-largest-element-in-an-array](https://github.com/abdallamaged95/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0912-sort-an-array](https://github.com/abdallamaged95/LeetCode/tree/master/0912-sort-an-array) |
 ## Greedy
 |  |
@@ -226,6 +229,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/abdallamaged95/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0912-sort-an-array](https://github.com/abdallamaged95/LeetCode/tree/master/0912-sort-an-array) |
 ## Merge Sort
 |  |
@@ -243,4 +247,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0912-sort-an-array](https://github.com/abdallamaged95/LeetCode/tree/master/0912-sort-an-array) |
+## Quickselect
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/abdallamaged95/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 <!---LeetCode Topics End-->
